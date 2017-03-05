@@ -1,0 +1,24 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "description": "Everything that's needed to run this code ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ldesir05/angularToDo.git"
+  },
+  "author": "Limbert Desir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ldesir05/angularToDo/issues"
+  },
+  "homepage": "https://github.com/Ldesir05/angularToDo#readme",
+  "dependencies": {
+    "express": "^4.15.0",
+    "mongoose": "^4.8.5"
+  }
+}
