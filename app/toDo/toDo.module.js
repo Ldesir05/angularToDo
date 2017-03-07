@@ -1,3 +1,4 @@
+
 // Here we declare the main module (app).
 angular
     .module('toDo', [
@@ -8,9 +9,9 @@ angular
         'ui.router',
 
         // Features
-        // 'createAHero.dashboard',
-        // 'createAHero.home',
-        // 'createAHero.story'
+        'toDo.list',    
+        'toDo.create',           
+        'toDo.completed'
     ])
     .config(appConfig);
 
