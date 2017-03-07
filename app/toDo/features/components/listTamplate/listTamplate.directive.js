@@ -1,5 +1,5 @@
 angular
-    .module('toDo.components.listTamplate') // No array, as we are "extending" the module
+    .module('toDo.component.listTamplate') // No array, as we are "extending" the module
     .directive('listTamplate', ListTamplate); // Define our book directive (Notice the naming convention; the directive name is lower-case start & camel-case; the function name is upper-case first & camel-case)
 
 function ListTamplate() {
@@ -16,6 +16,6 @@ function ListTamplate() {
     };
 }
 
-function ListTamplate() {
+function ListTamplateCtrl() {
     var vm = this; // vm stands for View Model - anything on "the vm" is exposed to the view
 }
