@@ -7,7 +7,7 @@ function ListTamplate() {
         restrict: 'E', // Directives can be an element(E) type and/or an attribute(A) type and/or a class(C) type
         scope: { // The properties that can be passed into the VM from the callie of the directive
             // properites are defined with a value defining there prefix
-            Data: '=' // @ - reads the value (one-way binding), = - binds the model (two-way binding), & for function binding
+            listTamplateData: '=' // @ - reads the value (one-way binding), = - binds the model (two-way binding), & for function binding
         },
         templateUrl: '/toDo/features/components/listTamplate/listTamplate.html', // The url to the view template
         controller: ListTamplateCtrl, // The function to use as the controller for this directive
