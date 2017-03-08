@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Angular To-Do</title>
 
@@ -17,9 +18,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
     <!-- Compiled and minified Materialize JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
-  </head>
-  <!-- in the body  -->
-  <body ng-app="toDo">
+</head>
+<!-- in the body  -->
+
+<body ng-app="toDo">
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">To-Do</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="/">List</a></li>
+                <li><a href="/#!/create">Create</a></li>
+                <li><a href="/#!/completed">Completed</a></li>
+            </ul>
+        </div>
+    </nav>
 
     <ui-view></ui-view>
 
@@ -42,6 +54,7 @@
 
     <script src="toDo/features/components/listTamplate/listTamplate.module.js"></script>
     <script src="toDo/features/components/listTamplate/listTamplate.directive.js"></script>
-    
-  </body>
+
+</body>
+
 </html>
